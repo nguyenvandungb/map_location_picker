@@ -367,7 +367,7 @@ class _MapLocationPickerState extends State<MapLocationPicker> {
               padding: widget.padding,
               compassEnabled: widget.compassEnabled,
               liteModeEnabled: widget.liteModeEnabled,
-              mapType: widget.mapType,
+              mapType: _mapType,
             ),
             Column(
               mainAxisAlignment: MainAxisAlignment.end,
